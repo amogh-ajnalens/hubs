@@ -90,7 +90,7 @@ export function HomePage() {
             <img
               alt={intl.formatMessage(
                 {
-                  id: "home-page.hero-image-alt",
+                  id: "home-page.hero-image-alt",          
                   defaultMessage: "Screenshot of {appName}"
                 },
                 { appName: configs.translation("app-name") }

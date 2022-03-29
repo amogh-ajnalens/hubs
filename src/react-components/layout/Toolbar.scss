@@ -4,7 +4,7 @@
   height: 96px;
   display: flex;
   padding: 12px;
-  background-color: theme.$background1-color;
+  background-color: rgba(0,0,0,0.5);
   border-top: 1px solid theme.$border1-color;
 
   @media (min-width: theme.$breakpoint-lg) {

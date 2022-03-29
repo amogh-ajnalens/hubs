@@ -36,10 +36,14 @@ AllButtons.parameters = {
 
 export const RoomToolbar = () => (
   <RoomLayout
-    toolbarLeft={<ToolbarButton icon={<InviteIcon />} label="Invite" preset="basic" />}
+    toolbarLeft={
+      <>
+      <ToolbarButton icon={<MicrophoneIcon />} label="Voice" preset="basic" />
+      <ToolbarButton icon={<LeaveIcon />} label="Leave" preset="accent1" />
+      </>
+    }
     toolbarCenter={
       <>
-        <ToolbarButton icon={<MicrophoneIcon />} label="Voice" preset="basic" />
         <ToolbarButton icon={<ShareIcon />} label="Share" preset="accent5" />
         <ToolbarButton icon={<ObjectIcon />} label="Place" preset="accent3" />
         <ToolbarButton icon={<ReactionIcon />} label="React" preset="accent2" />
@@ -48,7 +52,7 @@ export const RoomToolbar = () => (
     }
     toolbarRight={
       <>
-        <ToolbarButton icon={<LeaveIcon />} label="Leave" preset="accent1" />
+        <ToolbarButton icon={<InviteIcon />} label="Invite" preset="basic" />
         <ToolbarButton icon={<MoreIcon />} label="More" preset="transparent" />
       </>
     }
