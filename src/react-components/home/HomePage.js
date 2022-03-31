@@ -75,29 +75,25 @@ export function HomePage() {
             <SignInButton mobile />
           )}
           <div className={styles.logoContainer}>
-            {isHmc ? (
-              <HmcLogo className="hmc-logo" />
-            ) : (
+            {
               <img alt={configs.translation("app-name")} src={getAppLogo()} />
-            )}
+            }
           </div>
           <div className={styles.appInfo}>
             <div className={styles.appDescription}>{configs.translation("app-description")}</div>
             {canCreateRooms && <CreateRoomButton />}
             <PWAButton />
           </div>
+
           <div className={styles.heroImageContainer}>
-            <img
-              alt={intl.formatMessage(
-                {
-                  id: "home-page.hero-image-alt",          
-                  defaultMessage: "Screenshot of {appName}"
-                },
-                { appName: configs.translation("app-name") }
-              )}
-              src={configs.image("home_background")}
-            />
+            
+            <img src="https://i.postimg.cc/QxXBq8Fx/bg1.jpg"/>
+            <img src="https://i.postimg.cc/vZKcM53c/bg2.jpg"/>
+            <img src="https://i.postimg.cc/sDwM6kWP/bg3.jpg"/>
+            <img src="https://i.postimg.cc/W1zhQ5mB/bg4.jpg"/>
+
           </div>
+
         </div>
       </Container>
       {configs.feature("show_feature_panels") && (
