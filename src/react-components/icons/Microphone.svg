@@ -1,8 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="20.05" height="37.912" viewBox="0 0 20.05 37.912">
-  <g id="Mic" transform="translate(-112.266 -958)">
-    <g id="Icon_ionic-ios-mic" data-name="Icon ionic-ios-mic" transform="translate(112.266 958)">
-      <path id="Path_16" data-name="Path 16" d="M19.333,29.622h0a5.85,5.85,0,0,0,5.833-5.833V9.208a5.85,5.85,0,0,0-5.833-5.833h0A5.85,5.85,0,0,0,13.5,9.208V23.789A5.85,5.85,0,0,0,19.333,29.622Z" transform="translate(-9.308 -3.375)" fill="#fff"/>
-      <path id="Path_17" data-name="Path 17" d="M29.039,13.5a1.28,1.28,0,0,0-1.276,1.276v6.288a7.473,7.473,0,0,1-14.946,0V14.776a1.276,1.276,0,1,0-2.552,0v6.288a10.037,10.037,0,0,0,8.749,9.943v4.73H15.734a1.276,1.276,0,1,0,0,2.552h9.113a1.276,1.276,0,0,0,0-2.552H21.566v-4.73a10.037,10.037,0,0,0,8.749-9.943V14.776A1.28,1.28,0,0,0,29.039,13.5Z" transform="translate(-10.266 -0.377)" fill="#fff"/>
-    </g>
-  </g>
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.5 17.5006H12.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="8" y="8.69995" width="4" height="0" fill="#7ED320"/>
+<path d="M15 8.12573V9.37573C15 12.1257 12.75 14.3757 10 14.3757C7.25 14.3757 5 12.1257 5 9.37573V8.12573" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.99976 14.3761V17.5011" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 2.50028C9.67126 2.49862 9.34543 2.56215 9.04137 2.6872C8.7373 2.81225 8.46105 2.99634 8.22857 3.22882C7.99609 3.46129 7.81201 3.73755 7.68696 4.04161C7.56191 4.34567 7.49838 4.67151 7.50003 5.00028V9.33621C7.50003 10.7112 8.63284 11.8753 10 11.8753C11.3672 11.8753 12.5 10.7425 12.5 9.33621V5.00028C12.5 3.59403 11.4063 2.50028 10 2.50028Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
