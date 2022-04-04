@@ -22,6 +22,8 @@ import { SignInButton } from "./SignInButton";
 import maskEmail from "../../utils/mask-email";
 import { ReactComponent as HmcLogo } from "../icons/HmcLogo.svg";
 
+
+
 export function HomePage() {
   const auth = useContext(AuthContext);
   const intl = useIntl();
@@ -87,10 +89,10 @@ export function HomePage() {
 
           <div className={styles.heroImageContainer}>
             
-            <img src="https://i.postimg.cc/QxXBq8Fx/bg1.jpg"/>
-            <img src="https://i.postimg.cc/vZKcM53c/bg2.jpg"/>
-            <img src="https://i.postimg.cc/sDwM6kWP/bg3.jpg"/>
-            <img src="https://i.postimg.cc/W1zhQ5mB/bg4.jpg"/>
+            <img src={configs.image("Bg1")} />
+            <img src={configs.image("Bg2")} />
+            <img src={configs.image("Bg3")} />
+            <img src={configs.image("Bg4")} />
 
           </div>
 
