@@ -49,7 +49,7 @@ export function RoomEntryModal({
         </div>
         <Column center className={styles.buttons}>
           {showJoinRoom && (
-            <Button preset="accent4" onClick={onJoinRoom}>
+            <Button preset="accent5" onClick={onJoinRoom}>
               <EnterIcon />
               <span>
                 <FormattedMessage id="room-entry-modal.join-room-button" defaultMessage="Join Room" />
@@ -65,7 +65,7 @@ export function RoomEntryModal({
             </Button>
           )}
           {showSpectate && (
-            <Button preset="accent2" onClick={onSpectate}>
+            <Button preset="accent5" onClick={onSpectate}>
               <ShowIcon />
               <span>
                 <FormattedMessage id="room-entry-modal.spectate-button" defaultMessage="Spectate" />
