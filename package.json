@@ -180,6 +180,7 @@
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-react": "^7.10.0",
     "eslint-plugin-react-hooks": "^4.0.0",
+    "eslint-plugin-storybook": "^0.5.7",
     "esm": "^3.2.5",
     "fast-plural-rules": "0.0.3",
     "file-loader": "^1.1.10",
