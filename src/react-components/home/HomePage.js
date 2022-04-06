@@ -22,6 +22,8 @@ import { SignInButton } from "./SignInButton";
 import maskEmail from "../../utils/mask-email";
 import { ReactComponent as HmcLogo } from "../icons/HmcLogo.svg";
 
+
+
 export function HomePage() {
   const auth = useContext(AuthContext);
   const intl = useIntl();
@@ -75,29 +77,25 @@ export function HomePage() {
             <SignInButton mobile />
           )}
           <div className={styles.logoContainer}>
-            {isHmc ? (
-              <HmcLogo className="hmc-logo" />
-            ) : (
+            {
               <img alt={configs.translation("app-name")} src={getAppLogo()} />
-            )}
+            }
           </div>
           <div className={styles.appInfo}>
             <div className={styles.appDescription}>{configs.translation("app-description")}</div>
             {canCreateRooms && <CreateRoomButton />}
             <PWAButton />
           </div>
+
           <div className={styles.heroImageContainer}>
-            <img
-              alt={intl.formatMessage(
-                {
-                  id: "home-page.hero-image-alt",
-                  defaultMessage: "Screenshot of {appName}"
-                },
-                { appName: configs.translation("app-name") }
-              )}
-              src={configs.image("home_background")}
-            />
+            
+            <img src={configs.image("Bg1")} />
+            <img src={configs.image("Bg2")} />
+            <img src={configs.image("Bg3")} />
+            <img src={configs.image("Bg4")} />
+
           </div>
+
         </div>
       </Container>
       {configs.feature("show_feature_panels") && (

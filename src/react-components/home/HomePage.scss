@@ -59,11 +59,16 @@
 }
 
 :local(.hero-image-container) {
+  display: flex;
+  width: 60%;
+  flex-direction: row;
+
+  flex-wrap: wrap;
 
   img {
-    @media (min-width: theme.$breakpoint-lg) {
       border-radius: 16px;
-    }
+      width: 50%;
+      padding: 0.5%;
   }
 }
 
